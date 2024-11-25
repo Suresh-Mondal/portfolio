@@ -27,12 +27,14 @@ pre {
 * {
     scrollbar-width: thin;
     scrollbar-color: var(--scroll-bar-color) var(--scroll-bar-bg-color);
+    margin: 0;
+    padding: 0;
 }
 
 /* Works on Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
-    width: 12px;
-    height: 12px;
+    width: 5px;
+    height: 5px;
 }
 
 *::-webkit-scrollbar-track {
@@ -41,7 +43,7 @@ pre {
 
 *::-webkit-scrollbar-thumb {
     background-color: var(--scroll-bar-color);
-    border-radius: 20px;
+    border-radius: 10px;
     border: 3px solid var(--scroll-bar-bg-color);
 }
 
@@ -49,8 +51,6 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: black;
     color: #f6f6f6;
-    margin: 0%;
-    padding: 0;
     overflow-x: hidden;  
 }
 
@@ -60,7 +60,8 @@ img{
 }
 
 .list{
-    columns: 300px;
+    columns: 270px;
+    padding: 1.5rem;
 }
 
 .a{
